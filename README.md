@@ -96,3 +96,14 @@ export function numToLocale(n: number, locale?: string): string {
 export const numToLocaleArrow = (n: number, locale?: string): string =>
   n.toLocaleString(locale);
 ```
+
+## Defaul values
+
+```ts
+type Obj = Partial<{
+  a: number;
+  b: number;
+}>;
+
+ const { a, b = 2 }: Obj = { a: 1 };
+```
