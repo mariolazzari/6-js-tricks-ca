@@ -16,7 +16,7 @@ pnpm install
 pnpm test
 ```
 
-### COverage
+### Coverage
 
 ```sh
 pnpm test
