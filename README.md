@@ -107,3 +107,19 @@ type Obj = Partial<{
 
  const { a, b = 2 }: Obj = { a: 1 };
 ```
+
+## Create object from entries
+
+```ts
+type Person = {
+  name: string;
+  age: number;
+};
+
+const entries = [
+  ["name", "Mario"],
+  ["age", 49],
+];
+
+const obj: Person = Object.fromEntries(entries);
+```
