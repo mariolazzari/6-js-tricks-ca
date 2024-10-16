@@ -19,6 +19,6 @@ describe("Add key to object", () => {
   });
 
   it("should add a key and a value to an existing object with arrow function", () => {
-    expect(addKey(obj, key, value)).toMatchObject(res);
+    expect(addKeyArrow(obj, key, value)).toMatchObject(res);
   });
 });

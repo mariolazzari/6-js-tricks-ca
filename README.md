@@ -63,3 +63,14 @@ export const addKeyArrow = <T extends {}>(
   value: Value
 ): Record<string, Value> => ({ ...obj, [key]: value });
 ```
+
+## Format locale number
+
+```ts
+export function numToLocale(n: number, locale?: string): string {
+  return n.toLocaleString(locale);
+}
+
+export const numToLocaleArrow = (n: number, locale?: string): string =>
+  n.toLocaleString(locale);
+```
