@@ -1,3 +1,4 @@
+// add key value to existing object
 type Value = string | number | boolean | null | undefined;
 
 export function addKey<T extends {}>(

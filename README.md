@@ -2,6 +2,28 @@
 
 YouTube [video](https://www.youtube.com/watch?v=UC1_ydr6Br4)
 
+## Usage
+
+### Install
+
+```sh
+pnpm install
+```
+
+### Testing
+
+```sh
+pnpm test
+```
+
+### COverage
+
+```sh
+pnpm test
+```
+
+
+
 ## Swap numbers
 
 ```ts
