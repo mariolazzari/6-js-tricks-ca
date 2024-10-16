@@ -1,10 +1,3 @@
-# 6 JavaScript tricks you should know
-
-YouTube [video](https://www.youtube.com/watch?v=UC1_ydr6Br4)
-
-## Swap numbers
-
-```ts
 type SwapResult = [a: number, b: number];
 
 // swap numbers
@@ -26,5 +19,3 @@ export function swapDesc(a: number, b: number): SwapResult {
 
 // arrow function
 export const swapArrow = (a: number, b: number): SwapResult => [b, a];
-
-```
